@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>XO Game</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="java.js"></script>
+</head>
+<body>	
+	<h1>Xo XO Xo</h1>
+	
+	<h3 id="pr1">In this game if three Xs (or) three 0s are match by liner (or) diagonal then game will ends</h3>
+	<h3 id="pr2">For new match click reset button!!!</h3>
+	<div id="box">
+	<input type="text" id="b1" class="b" onclick="func1();myfunc();"   readonly>
+	<input type="text" id="b2" class="b" onclick="func2();myfunc();"   readonly>
+	<input  type="text" id="b3" class="b" onclick="func3();myfunc();"  readonly>
+	<br><br>
+	<input  type="text" id="b4" class="b" onclick="func4();myfunc();"   readonly >
+	<input  type="text" id="b5" class="b" onclick="func5();myfunc();"   readonly>
+	<input  type="text" id="b6" class="b" onclick="func6();myfunc();"  readonly>
+	<br><br>
+	<input  type="text" id="b7" class="b" onclick="func7();myfunc();"  readonly>
+	<input  type="text" id="b8" class="b" onclick="func8();myfunc();"  readonly>
+	<input  type="text" id="b9" class="b" onclick="func9();myfunc();"  readonly>
+    </div>
+	<br>
+	<button onclick="func10();" id="btn">RESET</button>
+	<p id="print"></p>
+</body>
+	</html>
